@@ -4,7 +4,7 @@ const inputs = document.querySelectorAll('input')
 const validarControl = new ValidarControl()
 
 inputs.forEach(input => {
-  input.addEventListener('blur', (ev) => {
+  input.addEventListener('blur', (e) => {
     validarControl.validar(input)
   })
 })
